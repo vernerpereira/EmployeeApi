@@ -1,7 +1,7 @@
 # EmployeeApi
 It is a Web API with DDD and TDD to store employees' information.
 
-To start you need to execute the migration to create the database or you can execute the SQL script file inside the folder Resources.
+To start you need to execute the migration (inside the project LuizalabsEmployeeManager.Repositories - update-database command) to create the database or you can execute the SQL script file inside the folder Resources.
 
 There are 3 methods in the endpoit, follow them bellow:
 
