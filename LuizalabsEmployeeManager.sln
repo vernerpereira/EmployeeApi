@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.API", "LuizalabsEmployeeManager.API\LuizalabsEmployeeManager.API.csproj", "{EFF75063-4E5E-4668-B495-879EC8F82827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{47804D7B-4C14-44EC-9177-224CA5ABD7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FCCE2F4D-CAA9-457C-97A4-7CC454562D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Domain", "LuizalabsEmployeeManager.Domain\LuizalabsEmployeeManager.Domain.csproj", "{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{18B731B5-C322-452F-BDF3-A9824A4421C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Helpers", "LuizalabsEmployeeManager.Helpers\LuizalabsEmployeeManager.Helpers.csproj", "{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Helpers.Tests", "LuizalabsEmployeeManager.Helpers.Tests\LuizalabsEmployeeManager.Helpers.Tests.csproj", "{3E38AE33-0D9C-4374-A214-03A9DA03688C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Domain.Tests", "LuizalabsEmployeeManager.Domain.Tests\LuizalabsEmployeeManager.Domain.Tests.csproj", "{688EE5F3-4A11-4182-BC5A-59C247061947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{3B4A391E-D06B-4135-860D-3AFC161FB6A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Repositories", "LuizalabsEmployeeManager.Repositories\LuizalabsEmployeeManager.Repositories.csproj", "{410F9A8B-CE77-496E-9C47-91DA4B2A81F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuizalabsEmployeeManager.Repositories.Tests", "LuizalabsEmployeeManager.Repositories.Tests\LuizalabsEmployeeManager.Repositories.Tests.csproj", "{7F370C0D-5608-481D-BFD0-8BC247C9545E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{F7A3F798-7064-4F7D-90F9-939A3A39B254}"
+	ProjectSection(SolutionItems) = preProject
+		LuizalabsEmployeeManager.Domain\Resources\DatabaseScript.sql = LuizalabsEmployeeManager.Domain\Resources\DatabaseScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF75063-4E5E-4668-B495-879EC8F82827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF75063-4E5E-4668-B495-879EC8F82827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF75063-4E5E-4668-B495-879EC8F82827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF75063-4E5E-4668-B495-879EC8F82827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E38AE33-0D9C-4374-A214-03A9DA03688C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E38AE33-0D9C-4374-A214-03A9DA03688C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E38AE33-0D9C-4374-A214-03A9DA03688C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E38AE33-0D9C-4374-A214-03A9DA03688C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688EE5F3-4A11-4182-BC5A-59C247061947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688EE5F3-4A11-4182-BC5A-59C247061947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688EE5F3-4A11-4182-BC5A-59C247061947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688EE5F3-4A11-4182-BC5A-59C247061947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410F9A8B-CE77-496E-9C47-91DA4B2A81F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410F9A8B-CE77-496E-9C47-91DA4B2A81F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410F9A8B-CE77-496E-9C47-91DA4B2A81F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410F9A8B-CE77-496E-9C47-91DA4B2A81F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F370C0D-5608-481D-BFD0-8BC247C9545E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F370C0D-5608-481D-BFD0-8BC247C9545E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F370C0D-5608-481D-BFD0-8BC247C9545E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F370C0D-5608-481D-BFD0-8BC247C9545E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFF75063-4E5E-4668-B495-879EC8F82827} = {47804D7B-4C14-44EC-9177-224CA5ABD7B2}
+		{E9333D5F-FF32-4AF0-AE18-A4561B3C45DD} = {FCCE2F4D-CAA9-457C-97A4-7CC454562D99}
+		{7CEF1E6B-C493-4157-B3A4-3CE09DC2F3D4} = {18B731B5-C322-452F-BDF3-A9824A4421C6}
+		{3E38AE33-0D9C-4374-A214-03A9DA03688C} = {18B731B5-C322-452F-BDF3-A9824A4421C6}
+		{688EE5F3-4A11-4182-BC5A-59C247061947} = {FCCE2F4D-CAA9-457C-97A4-7CC454562D99}
+		{410F9A8B-CE77-496E-9C47-91DA4B2A81F8} = {3B4A391E-D06B-4135-860D-3AFC161FB6A6}
+		{7F370C0D-5608-481D-BFD0-8BC247C9545E} = {3B4A391E-D06B-4135-860D-3AFC161FB6A6}
+	EndGlobalSection
+EndGlobal
